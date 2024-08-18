@@ -1,24 +1,24 @@
 {
-  "name": "vscode-mjml",
-  "displayName": "MJML",
-  "description": "MJML preview, lint, compile for Visual Studio Code.",
-  "version": "1.0.6",
-  "publisher": "mjmlio",
+  "name": "vscode-mjml-custom-path",
+  "displayName": "MJML - With Custom Config Path",
+  "description": "unofficial fork of MJML plugin",
+  "version": "1.0.8",
+  "publisher": "IvanKeirn",
   "license": "MIT",
   "readme": "README.md",
   "icon": "images/icon.png",
   "author": {
-    "name": "MJML",
-    "email": "cedric@derniercri.io",
-    "url": "https://mjml.io/"
+    "name": "Ivan Kerin",
+    "email": "ikerin@gmail.com",
+    "url": "https://github.com/ivank"
   },
-  "homepage": "https://github.com/mjmlio/vscode-mjml#readme",
+  "homepage": "https://github.com/ivank/vscode-mjml#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mjmlio/vscode-mjml"
+    "url": "https://github.com/ivank/vscode-mjml"
   },
   "bugs": {
-    "url": "https://github.com/mjmlio/vscode-mjml/issues"
+    "url": "https://github.com/ivank/vscode-mjml/issues"
   },
   "galleryBanner": {
     "color": "#f45e43",
@@ -324,7 +324,7 @@
     "@types/file-url": "^2.0.0",
     "@types/js-beautify": "^1.8.0",
     "@types/mime": "^2.0.0",
-    "@types/node": "*",
+    "@types/node": "^14.6.0",
     "@types/node-fetch": "^2.1.2",
     "@types/nodemailer": "^4.6.5",
     "@types/npm": "^2.0.29",
@@ -344,5 +344,6 @@
     "nodemailer": "^4.6.8",
     "npm": "^6.4.1",
     "phantom": "^6.3.0"
-  }
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
 }
